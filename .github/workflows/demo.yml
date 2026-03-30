@@ -38,6 +38,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: files
+          path: ./files
       - name: list content
         run: ls -la files
       - name: Deploy
